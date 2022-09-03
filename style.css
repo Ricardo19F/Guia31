@@ -114,3 +114,103 @@ footer {
 .datos__grupo {
   margin-top: 60px;
 }
+@media only screen and (max-width: 1860px) {
+  .enlaces {
+    padding: 50px 75px;
+  }
+}
+@media only screen and (max-width: 1610px) {
+  .enlaces {
+    padding: 50px 40px;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .enlaces {
+    padding: 50px 10px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .contenedor__enlaces {
+    width: 70vw;
+  }
+  .contenedor__datos {
+    font-size: 20pt;
+    padding: 100px 25px;
+    width: 30vw;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .contenedor__datos {
+    font-size: 16pt;
+    padding: 100px 10px;
+  }
+  .enlaces__lista {
+    padding: 50px 10px;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  .enlace--id {
+    width: 25%;
+  }
+  .enlace--a {
+    width: 65%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .enlace--id {
+    font-size: 14pt;
+    padding: 25px 25px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .contenedor {
+    flex-wrap: wrap;
+  }
+  .contenedor__datos {
+    width: 100%;
+    padding: 25px;
+  }
+  .contenedor__enlaces {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .enlace--id {
+    width: 30%;
+  }
+  .enlace--a {
+    width: 60%;
+    font-size: 16pt;
+  }
+  .enlace--a a {
+    padding: 24px 35px;
+  }
+}
+@media only screen and (max-width: 460px) {
+  footer {
+    padding: 0 10px;
+  }
+  .enlace--id {
+    padding: 25px 10px;
+  }
+
+  .enlace--a a {
+    padding: 24px 10px;
+  }
+  .enlace--a {
+    width: 65%;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .enlaces,
+  .enlaces__lista {
+    padding: 50px 1px 10px 1px;
+  }
+  .enlace--id {
+    padding: 15px 10px;
+  }
+
+  .enlace--a a {
+    padding: 10px 5px;
+  }
+}
