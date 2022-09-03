@@ -1,0 +1,30 @@
+{
+  "pais": {
+    "departamento": [
+      {
+        "cabecera": "San Salvador",
+        "habitantes": "1,700,000",
+        "altura": "545 MSNM",
+        "_id": "1",
+        "_nombre": "San Salvador"
+      },
+      {
+        "cabecera": "Santa Tecla",
+        "habitantes": "500,000",
+        "altura": "650 MSNM",
+        "_id": "2",
+        "_nombre": "La Libertad"
+      }
+    ],
+    "monedas": {
+      "moneda": ["USD", "BTC"]
+    },
+    "codigoarea": "503",
+    "idiomas": {
+      "oficial": "Español",
+      "autoctono": "Nahuatl",
+      "segundo": "Inglés"
+    },
+    "_nombre": "El Salvador"
+  }
+}

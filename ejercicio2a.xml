@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="ejercicio2a.css" type="text/css"?>
+<pais nombre="El Salvador">
+  <!-- ejercicio2a.xml PH18005 -->
+  <departamento id="1" nombre="San Salvador">
+    <cabecera>San Salvador</cabecera>
+    <habitantes>1,700,000</habitantes>
+    <altura>545 MSNM</altura>
+  </departamento>
+  <departamento id="2" nombre="La Libertad">
+    <cabecera>Santa Tecla</cabecera>
+    <habitantes>500,000</habitantes>
+    <altura>650 MSNM</altura>
+  </departamento>
+  <monedas>
+    <moneda>USD</moneda>
+    <moneda>BTC</moneda>
+  </monedas>
+  <codigoarea>503</codigoarea>
+  <idiomas>
+    <oficial>Español</oficial>
+    <autoctono>Nahuatl</autoctono>
+    <segundo>Inglés</segundo>
+  </idiomas>
+</pais>

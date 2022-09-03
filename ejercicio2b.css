@@ -1,0 +1,108 @@
+pais {
+  background-color: rgb(0, 60, 128);
+  color: white;
+  display: block;
+  border: 1px solid #3a78c0;
+  /* height: 100px; */
+  margin: 15px;
+  padding: 10px;
+  font-family: "Ubuntu";
+}
+pais[nombre]::before {
+  content: "País: " attr(nombre);
+  font-size: 24pt;
+  display: block;
+}
+departamentos,
+monedas,
+codigoarea,
+idiomas {
+  margin: 10px 30px;
+  padding: 15px;
+  border: 1px dotted white;
+  display: block;
+}
+departamentos::before {
+  content: "Departamentos";
+  display: block;
+  margin: 10px 0;
+  font-size: 16pt;
+}
+
+departamento {
+  display: block;
+  border-bottom: 1px dashed white;
+  margin: 0 10px;
+}
+departamento[id]::before {
+  content: attr(id) " :: " attr(nombre) " : : : (hab.: " attr(habitantes) ")";
+  display: inline-block;
+  width: 350px;
+  height: 50px;
+  padding-left: 20px;
+  background-color: #81a3c9;
+  color: black;
+  text-align: left;
+  vertical-align: middle;
+  line-height: 3;
+}
+cabecera {
+  padding-left: 20px;
+}
+cabecera::before {
+  content: "Cabecera: ";
+}
+cabecera::after {
+  content: " : : : (alt.: " attr(altura) ")";
+}
+moneda {
+  display: inline-block;
+  width: 70px;
+  text-align: center;
+  background-color: #a07431;
+  padding: 10px 0;
+  color: whitesmoke;
+  margin: 0 10px;
+  border: 1px solid white;
+}
+monedas::before {
+  content: "Monedas";
+  display: block;
+  margin: 10px 0;
+  font-size: 16pt;
+}
+codigoarea::before {
+  content: "Codigo de Área ► ";
+  display: inline block;
+  font-size: 16pt;
+}
+codigoarea::content {
+  padding-left: 100px;
+}
+oficial,
+autoctono,
+segundo {
+  margin: 0 10px;
+  color: whitesmoke;
+
+  width: 100px;
+  padding: 10px 0;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid white;
+}
+oficial {
+  background-color: #3a78c0;
+}
+autoctono {
+  background-color: #2b914d;
+}
+segundo {
+  background-color: #788628;
+}
+idiomas::before {
+  content: "Idiomas";
+  display: block;
+  margin: 10px 0;
+  font-size: 16pt;
+}

@@ -1,0 +1,45 @@
+{
+  "pais": {
+    "departamentos": {
+      "departamento": [
+        {
+          "cabecera": {
+            "_altura": "545 MSNM",
+            "__text": "San Salvador"
+          },
+          "_id": "1",
+          "_nombre": "San Salvador",
+          "_habitantes": "1,700,000"
+        },
+        {
+          "cabecera": {
+            "_altura": "650 MSNM",
+            "__text": "Santa Tecla"
+          },
+          "_id": "2",
+          "_nombre": "La Libertad",
+          "_habitantes": "500,000"
+        },
+        {
+          "cabecera": {
+            "_altura": "400MSNM",
+            "__text": "Chalatenango"
+          },
+          "_id": "3",
+          "_nombre": "Chalatenango",
+          "_habitantes": "100,000"
+        }
+      ]
+    },
+    "monedas": {
+      "moneda": ["USD", "BTC"]
+    },
+    "codigoarea": "503",
+    "idiomas": {
+      "oficial": "Español",
+      "autoctono": "Nahuatl",
+      "segundo": "Inglés"
+    },
+    "_nombre": "El Salvador"
+  }
+}

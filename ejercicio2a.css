@@ -1,0 +1,130 @@
+pais {
+  background-color: #5e4c00;
+  color: white;
+  display: block;
+  border: 1px solid rgb(221, 191, 59);
+  /* height: 100px; */
+  margin: 15px;
+  padding: 10px;
+  font-family: "Ubuntu";
+}
+pais[nombre]::before {
+  content: "País: " attr(nombre);
+  font-size: 24pt;
+  display: block;
+}
+departamento::before {
+  display: block;
+  margin: 10px 20px;
+  font-size: 16pt;
+}
+departamento:nth-child(1)::before {
+  content: "Depto. 1 : : " attr(nombre);
+}
+departamento:nth-child(2)::before {
+  content: "Depto. 2 : : " attr(nombre);
+}
+departamento {
+  display: block;
+  border-bottom: 1px dashed white;
+  margin: 0 10px;
+}
+cabecera,
+habitantes,
+altura {
+  margin-left: 40px;
+  display: inline-block;
+  background-color: #27661f;
+  padding: 10px 0;
+  text-align: center;
+  width: 250px;
+}
+cabecera::before {
+  content: "Cabecera: ";
+}
+habitantes::before {
+  content: "Habitantes: ";
+}
+altura::before {
+  content: "Altura: ";
+}
+/*departamento[id]::before {
+  content: attr(id) " :: " attr(nombre) " : : : (hab.: " attr(habitantes) ")";
+  display: inline-block;
+  width: 350px;
+  height: 50px;
+  padding-left: 20px;
+  background-color: #81a3c9;
+  color: black;
+  text-align: left;
+  vertical-align: middle;
+  line-height: 3;
+}
+cabecera {
+  padding-left: 20px;
+}
+cabecera::before {
+  content: "Cabecera: ";
+}
+cabecera::after {
+  content: " : : : (alt.: " attr(altura) ")";
+} */
+monedas,
+codigoarea,
+idiomas {
+  margin: 10px 30px;
+  padding: 15px;
+  border: 1px dotted white;
+  display: block;
+}
+moneda {
+  display: inline-block;
+  width: 70px;
+  text-align: center;
+  background-color: #27661f;
+  padding: 10px 0;
+  color: whitesmoke;
+  margin: 0 10px;
+  border: 1px solid white;
+}
+monedas::before {
+  content: "Monedas";
+  display: block;
+  margin: 10px 0;
+  font-size: 16pt;
+}
+codigoarea::before {
+  content: "Codigo de Área ► ";
+  display: inline block;
+  font-size: 16pt;
+}
+codigoarea::content {
+  padding-left: 100px;
+}
+oficial,
+autoctono,
+segundo {
+  margin: 0 10px;
+  color: whitesmoke;
+
+  width: 100px;
+  padding: 10px 0;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid white;
+}
+oficial {
+  background-color: #22456e;
+}
+autoctono {
+  background-color: #712b91;
+}
+segundo {
+  background-color: #862830;
+}
+idiomas::before {
+  content: "Idiomas";
+  display: block;
+  margin: 10px 0;
+  font-size: 16pt;
+}

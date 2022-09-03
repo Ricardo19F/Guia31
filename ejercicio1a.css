@@ -1,0 +1,88 @@
+fichero {
+  background-color: #442357;
+  color: white;
+  font-family: "Ubuntu";
+}
+fichero::before {
+  content: "Ficheros";
+  font-size: 24pt;
+  margin: 40px;
+  display: block;
+}
+ficha {
+  display: block;
+  margin: 20px 50px;
+  border: 2px dotted #994fc4;
+  padding: 0 10px;
+  padding-bottom: 20px;
+}
+ficha[id]::before {
+  display: block;
+  content: "Ficha # " attr(id) " • • • " attr(fechaingreso);
+  font-size: 16pt;
+  background-color: #783d9b;
+  width: fit-content;
+  padding: 10px;
+}
+nombre,
+apellido {
+  margin-top: 20px;
+  margin-bottom: 2px;
+  padding: 10px;
+  display: inline-block;
+  background-color: #2b1736;
+  border-left: 1px solid white;
+}
+nombre::before {
+  content: "Nombre: ";
+  color: gray;
+}
+apellido::before {
+  content: "Apellido: ";
+  color: gray;
+}
+direccion {
+  padding: 10px;
+  display: block;
+  margin-bottom: 2px;
+  background-color: #2b1736;
+  border-left: 1px solid white;
+}
+direccion::before {
+  content: "Dirección: ";
+  color: gray;
+}
+telefono {
+  padding: 10px;
+  margin-bottom: 2px;
+  display: block;
+  background-color: #2b1736;
+  border-left: 1px solid white;
+}
+telefono::before {
+  content: "Teléfono: ";
+  color: gray;
+}
+
+email {
+  padding: 10px;
+  margin-bottom: 2px;
+  display: block;
+  background-color: #2b1736;
+  border-left: 1px solid white;
+}
+email::before {
+  content: "Correo electrónico: ";
+  color: gray;
+}
+url {
+  padding: 10px;
+  margin-bottom: 2px;
+  display: block;
+  background-color: #2b1736;
+  border-left: 1px solid white;
+}
+url::before {
+  content: "Sitio web: ";
+  color: gray;
+}

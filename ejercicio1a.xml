@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="ejercicio1a.css" type="text/css"?>
+<!-- ejercicio1a.xml PH18005 -->
+<fichero>
+  <ficha id="1" fechaingreso="1/11/2012">
+    <nombre>Ricardo</nombre>
+    <apellido>Pérez</apellido>
+    <direccion>Calle a Santa Julia, #90B</direccion>
+  </ficha>
+  <ficha id="2" fechaingreso="2/09/2022">
+    <nombre>Alfredo</nombre>
+    <apellido>Hernández</apellido>
+    <direccion>Shansapo, #17C</direccion>
+    <telefono>87924491</telefono>
+    <email>perez002017@gmail.com</email>
+    <url>github.com/Ricardo19F</url>
+  </ficha>
+</fichero>

@@ -1,0 +1,23 @@
+{
+  "fichero": {
+    "ficha": [
+      {
+        "nombre": "Ricardo",
+        "apellido": "Pérez",
+        "direccion": "Calle a Santa Rosa, #17B",
+        "_id": "1",
+        "_fechaingreso": "1/11/2012"
+      },
+      {
+        "nombre": "Alfredo",
+        "apellido": "Hernández",
+        "direccion": "Shansapo, #17C",
+        "telefono": "72892014",
+        "email": "perez002017@gmail.com",
+        "url": "github.com/Ricardo19F",
+        "_id": "2",
+        "_fechaingreso": "2/09/2022"
+      }
+    ]
+  }
+}
